@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T08:24:58.904Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="3ix0LtFSXquhp2xTiiXK" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T01:53:15.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ZlRYvqDLpcnDiqQ26-8w" version="20.3.0" type="github">
   <diagram id="cM4SF6-KOGi07tknLlma" name="第 1 页">
     <mxGraphModel dx="1662" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -134,19 +134,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-46" value="订单宽表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="505" width="180" height="80" as="geometry" />
+          <mxGeometry x="1160" y="505" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-47" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-46">
-          <mxGeometry y="30" width="180" height="30" as="geometry" />
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-48" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-47">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-49" value="dwt.dwt_orders" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-47">
-          <mxGeometry x="30" width="150" height="30" as="geometry">
-            <mxRectangle width="150" height="30" as="alternateBounds" />
+        <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-49" value="dwt.dwt_user_id_order_detail" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-47">
+          <mxGeometry x="30" width="210" height="30" as="geometry">
+            <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="k0ae6wU8P3SKjJ2Hq0vM-76">
@@ -154,7 +154,7 @@
             <mxPoint x="500" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-76" value="2.0 用户行为表" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-76" value="2.0 用户行为表（客户id + 产品）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="505" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-76">
@@ -165,7 +165,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-79" value="datacube.dwa_user_behavior_event_w" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-77">
+        <mxCell id="k0ae6wU8P3SKjJ2Hq0vM-79" value="dwt.dwt_flow_product_customer_1d" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="k0ae6wU8P3SKjJ2Hq0vM-77">
           <mxGeometry x="30" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
